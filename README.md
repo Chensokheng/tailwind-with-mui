@@ -19,3 +19,11 @@ yarn add -D tailwindcss postcss autoprefixer
 ```sh
 npx tailwindcss init -p
 ```
+
+# Add tailwind base to file css
+
+```sh
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
