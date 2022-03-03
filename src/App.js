@@ -6,8 +6,8 @@ export default function App() {
 	return (
 		<>
 			<CssBaseline />
-			<div className="bg-black">
-				<Button variant="contained" className="bg-blue-500 m-2">
+			<div className="bg-black min-h-screen">
+				<Button variant="contained" className="bg-blue-700 m-2">
 					Contained
 				</Button>
 				<h1 className="text-white">Hello world</h1>
